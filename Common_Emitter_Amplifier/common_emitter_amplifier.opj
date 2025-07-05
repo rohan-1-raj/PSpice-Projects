@@ -1,0 +1,107 @@
+(ExpressProject "common_emitter_amplifier"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "24.1 S004 (4290201)  [4/17/2025]-[07/05/25]")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    ("Allegro Netlist Directory" "allegro")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify)
+    (File ".\common_emitter_amplifier.DSN"
+      (Type "Schematic Design")
+      (DisplayName ".\common_emitter_amplifier.DSN"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE"))
+  (Folder "Layout")
+  (Folder "Outputs"
+    (File ".\common_emitter_amplifier-PSpiceFiles\SCHEMATIC1\SCHEMATIC1.net"
+      (Type "Report")
+      (DisplayName
+         ".\common_emitter_amplifier-PSpiceFiles\SCHEMATIC1\SCHEMATIC1.net"))
+    (Sort User)
+    (File ".\COMMON_EMITTER_AMPLIFIER_OUTPUT\BOM.SCH.CSV"
+      (Type "Report")
+      (DisplayName ".\COMMON_EMITTER_AMPLIFIER_OUTPUT\BOM.SCH.CSV")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\common_emitter_amplifier-pspicefiles\schematic1\timedomain.sim"
+        (DisplayName "SCHEMATIC1-timedomain")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\common_emitter_amplifier-pspicefiles\schematic1\ce_acsweep.sim"
+        (DisplayName "SCHEMATIC1-CE_acSweep")
+        (Type "PSpice Profile"))
+      (ActiveProfile
+         ".\common_emitter_amplifier-pspicefiles\schematic1\timedomain.sim"))
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (Folder "Logs")
+  (MPSSessionName "rohan")
+  (PartMRUSelector
+    (VAC
+      (FullPartName "VAC.Normal")
+      (LibraryName "D:\ORCAD\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (VSIN
+      (FullPartName "VSIN.Normal")
+      (LibraryName "D:\ORCAD\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName "D:\ORCAD\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (VDC
+      (FullPartName "VDC.Normal")
+      (LibraryName "D:\ORCAD\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName "D:\ORCAD\TOOLS\CAPTURE\LIBRARY\PSPICE\FILTSUB.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName "D:\ORCAD\TOOLS\CAPTURE\LIBRARY\PSPICE\FILTSUB.OLB")
+      (DeviceIndex "0"))
+    (Q2N2222
+      (FullPartName "Q2N2222.Normal")
+      (LibraryName "D:\ORCAD\TOOLS\CAPTURE\LIBRARY\PSPICE\BIPOLAR.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "d:\orcad\files\common_emitter_amplifier\common_emitter_amplifier.DSN")
+      (Path "Design Resources"
+         "d:\orcad\files\common_emitter_amplifier\common_emitter_amplifier.DSN"
+         "SCHEMATIC1")
+      (Path "Design Resources"
+         "d:\orcad\files\common_emitter_amplifier\common_emitter_amplifier.DSN"
+         "Design Cache")
+      (Path "Outputs")
+      (Path "PSpice Resources")
+      (Select "Design Resources"
+         "d:\orcad\files\common_emitter_amplifier\common_emitter_amplifier.DSN"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 203 0 530"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 24 5 1127 24 548")
+        (Scroll "-220 -5")
+        (Zoom "67")
+        (Occurrence "/"))
+      (Path
+         "D:\ORCAD\FILES\COMMON_EMITTER_AMPLIFIER\COMMON_EMITTER_AMPLIFIER.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))))

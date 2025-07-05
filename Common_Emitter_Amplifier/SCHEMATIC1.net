@@ -1,0 +1,14 @@
+* source COMMON_EMITTER_AMPLIFIER
+Q_Q1         N00289 N00120 N00293 Q2N2222
+R_R1         N00598 N00116  1k  
+C_C1         N00116 N00120  100uF  
+R_R2         N00120 N00255  90k  
+R_R3         0 N00120  10k  
+R_R4         N00289 N00255  4k  
+R_R5         0 N00293  250  
+C_C2         N00289 V_OUT  100uF  
+R_R6         0 V_OUT  4k  
+V_V2         N00255 0 12Vdc
+C_C3         0 N00293  100uF  
+V_V3         N00598 0  
++SIN 0 0.1 1k 0 0 0

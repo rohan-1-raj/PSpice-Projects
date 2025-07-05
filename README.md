@@ -27,4 +27,4 @@ An op-amp-based rectifier circuit designed to accurately rectify low-voltage sig
 - **Waveform Output**: Shows half-wave rectification
 
 📷 *Sample Output:*
-![Precision Rectifier Output](.Full_wave_rectifier/OUTPUT.jpg)
+![Precision Rectifier Output](./Full_wave_rectifier/OUTPUT.jpg)

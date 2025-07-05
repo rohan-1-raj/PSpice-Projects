@@ -14,7 +14,7 @@ A single-stage BJT amplifier using **2N2222** designed for mid-band voltage gain
 - **With and without emitter-bypass capacitor** to show gain-bandwidth tradeoff.
 
 📷 *Output (V_in vs V_out)*
-![Common Emitter Gain](./Common_Emitter_Amplifier/OUTPUT/amplification.jpeg)
+![Common Emitter Gain](./Common_Emitter_Amplifier/OUTPUT/amplification.jpg)
 
 ---
 
@@ -27,4 +27,4 @@ An op-amp-based rectifier circuit designed to accurately rectify low-voltage sig
 - **Waveform Output**: Shows half-wave rectification
 
 📷 *Sample Output:*
-![Precision Rectifier Output](./OUTPUT.jpeg)
+![Precision Rectifier Output](./OUTPUT.jpg)

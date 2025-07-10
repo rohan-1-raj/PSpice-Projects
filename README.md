@@ -24,7 +24,7 @@ An op-amp-based rectifier circuit designed to accurately rectify low-voltage sig
 
 - **Op-Amp Used**: μA741
 - **Simulation**: Transient analysis with sinusoidal input (at 100Hz)
-- **Waveform Output**: Shows half-wave rectification
+- **Waveform Output**: Shows full-wave rectification
 
 📷 *Sample Output:*
 ![Precision Rectifier Output](./Full_wave_rectifier/OUTPUT.jpg)
